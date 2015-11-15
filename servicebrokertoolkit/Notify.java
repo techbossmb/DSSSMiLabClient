@@ -1,0 +1,54 @@
+
+package servicebrokertoolkit;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Java class for anonymous complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType>
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="experimentID" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+    "experimentID"
+})
+@XmlRootElement(name = "Notify")
+public class Notify {
+
+    protected int experimentID;
+
+    /**
+     * Gets the value of the experimentID property.
+     * 
+     */
+    public int getExperimentID() {
+        return experimentID;
+    }
+
+    /**
+     * Sets the value of the experimentID property.
+     * 
+     */
+    public void setExperimentID(int value) {
+        this.experimentID = value;
+    }
+
+}
