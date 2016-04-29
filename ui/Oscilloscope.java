@@ -11,6 +11,7 @@ import java.util.List;
 /**
  *
  * @author  Adedayo Omitayo adedayo.omitayo@gmail.com
+ * modified by: Ishola Babatunde
  */
 public class Oscilloscope extends javax.swing.JPanel {
 
